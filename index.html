@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+    <div class="logo">
+        Net Ninja Pro - the Book
+    </div>
+    <ul>
+        <li><a href="#about">About The Book</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Get in Touch</a></li>
+        <button class="btn"><a href="#price">buy now</a></button>
+    </ul>
+
+    </div>
+    <div class="hero">
+<div class="text-box">
+    <h1>Black-Belt</h1>
+      
+    <h2>Your Coding Skills</h2><br>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Odit tempore harum dicta nisi!</p>
+    <br>
+    <button class="btn">Buy Now</button><br><br>
+
+    <a href="Explore my other books">Explore my other books</a>
+</div>
+    <img src="assets/ebook-cover.png" width="40%">
+    </div>
+
+
+    <!--------------SECTIION 2----------------->
+
+
+       <section class="pricebox" id="price">
+          
+<h1>Pricing Plans</h1>
+<p>Choose a pricing plan to suit you.</p>
+
+<div class="row">
+    <div class="price-col">
+        <h3>Starter Edition</h3>
+        <p>eBook download only</p>
+        <h2>$12.99</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eveniet eos voluptatum sapiente atque quaerat tempore molestias totam accusamus recusandae.</p>
+       <br> <button class="price-btn">Buy Now</button>
+    </div>
+    <div class="price-col">
+    
+        <h3>Complete Edition</h3>
+        <p>eBook download & all updates</p>
+        <h2>$18.99</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eveniet eos voluptatum sapiente atque quaerat tempore molestias totam accusamus recusandae.</p>
+       <br> <button class="price-btn">Buy Now</button>
+    </div>
+    <div class="price-col">
+        <h3>Ultimate Edition</h3>
+        <p>download updates & extras</p>
+        <h2>$24.99</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, eveniet eos voluptatum sapiente atque quaerat tempore molestias totam accusamus recusandae</p>
+        <br><button class="price-btn">Buy Now</button>
+    </div>
+</div>
+        
+    </div>
+       </section>
+
+<!-- -------------------------SECTION 3------------------------------ -->
+<section id="about" class="cover">
+
+    <div class="view">
+    <h1>Inside the Book...</h1>
+
+    <p>A quick glance at the topics you'll learn</p>
+    </div>
+
+
+    <div class="container">
+    <img src="assets/kindle.png" width="35%">
+
+<!-- ------------ACCORDION--------------------------- -->
+
+  <ul id="accordion">
+    <li>
+        <label for="first">Chapeter 1 - Your First Web Page<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="first" checked>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque atque laboriosam consequuntur doloribus ducimus sequi totam eius, odio repellat similique, tempora tempore, veniam hic nesciunt numquam quo. Debitis, libero suscipit.</p>
+        </div>
+    </li>
+    <li>
+        <label for="second">Chapeter 2 - Mastering CSS<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="second">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque atque laboriosam consequuntur doloribus ducimus sequi totam eius, odio repellat similique, tempora tempore, veniam hic nesciunt numquam quo. Debitis, libero suscipit.</p>
+        </div>
+    </li>
+    <li>
+        <label for="third">Chapeter 3 - The Power of JavaScript<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="third">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque atque laboriosam consequuntur doloribus ducimus sequi totam eius, odio repellat similique, tempora tempore, veniam hic nesciunt numquam quo. Debitis, libero suscipit.</p>
+        </div>
+    </li>
+    <li>
+        <label for="fourth">Chapeter 4 -  Storing Data (Firebase Databases)<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="fourth">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque atque laboriosam consequuntur doloribus ducimus sequi totam eius, odio repellat similique, tempora tempore, veniam hic nesciunt numquam quo. Debitis, libero suscipit.</p>
+        </div>
+    </li>
+    <li>
+        <label for="fifth">Chapeter 5 - User Authentication<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="fifth">
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque atque laboriosam consequuntur doloribus ducimus sequi totam eius, odio repellat similique, tempora tempore, veniam hic nesciunt numquam quo. Debitis, libero suscipit.</p>
+        </div>
+    </li>
+  </ul>
+    </div>
+</section>
+
+<!-- --------------FORM------------------------ -->
+
+
+<div class="form">
+    <h1>Get in Touch</h1>
+    <p>Question to ask? Fill oiut the form to contact me directly....</p>
+</div>
+<div class="formlist"> 
+<label class="emailbox">Email address:</label><br>
+<input type="text" name="email" placeholder="e.g.mario@example.com">
+<br><br>
+<div>
+<label class="namebox">Name:</label><br>
+<input type="text" name="name" placeholder="e.g.mario">
+</div><br>
+<label class="mailbox">What is your question about?</label><br>
+<input type="text" name="email" placeholder="pricing query">
+<br><br>
+<div class="message">
+ <label for="message"></label><br>
+ <textarea name="message" placeholder="Your query....."></textarea><br>
+</div><br>
+ <button class="btn2">submit</button>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
